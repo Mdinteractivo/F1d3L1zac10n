@@ -245,7 +245,7 @@
 					if(_uid.toString().length>13) uid_code = _uid.toString().substr(0,13)
 
 					$("#nombre").html(_name)
-					$("#codigo > div").barcode(uid_code, "ean13", {barWidth:1, barHeight:60});     
+					$("#codigo > div > div").barcode(uid_code, "ean13", {barWidth:2, barHeight:60});     
 					$('#home').show();
 					$('#connect').hide();
 
@@ -283,7 +283,9 @@
 			<div style='position: absolute;left: 0px;top: 0px;width: 100%;height: 100%;'>
 
 				<div id='home_botones'  style='position: absolute;left: 0px;top: 0px;width: 100%;height: 100%;'></div>
-				<div id='codigo' style='display:none'><img src='img/bg_micodigo.png' width='320' /><div></div></div>
+				<div id='codigo' style='display:none'><img src='img/bg_micodigo.png' width='320' />
+					<div><div></div></div>
+				</div>
 				<div id='compras' style='display:none;'></div>	
 				
 			</div>

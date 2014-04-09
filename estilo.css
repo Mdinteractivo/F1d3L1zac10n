@@ -321,12 +321,19 @@ top: 33px;
 	left: 50%;
 	margin-left: -157px;
 }
-#codigo > div{
-	position: relative;
-	margin: 0 auto;
-	
-	margin-top: -103px;
+#codigo > div > div{
+	margin-left: -14px;
 }
+#codigo > div{
+	width: 210px;
+	height: 90px;
+	overflow: hidden;
+	position: absolute;
+	top: 30px;
+	left: 58px;
+}
+	
+
 #home{
 	position: absolute;
 	width: 100%;
