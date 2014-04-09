@@ -92,13 +92,14 @@
 								var cant = 0;
 								_html += '<img src="img/header_tabla.png" id="header_tabla" width="320"><div id="lista">';
 								
-								for(var i=0; i<40; i++){
+								//for(var i=0; i<40; i++){
 								for(var item_compra in obj){
 									
 									_html += '<div class="registro_compra"><div class="c_id">#' + obj[item_compra].compras_id + '</div><div class="c_precio">' + obj[item_compra].compras_precio + '</div><div class="c_puntos">' + obj[item_compra].compras_puntos + ' </div><br style="clear:both"></div>';
 									cant += Number( obj[item_compra].compras_puntos);
 
-								}								}
+								}								
+								//}
 								_html += '</div>';
 							
 							
