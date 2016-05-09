@@ -133,25 +133,25 @@
 				$('#connect').append(btn_connect.main)
 
 				
-				try{
+				// try{
 
-					_Facebook = new Facebook();
-					_Facebook.init();
+				// 	_Facebook = new Facebook();
+				// 	_Facebook.init();
 
-					_Facebook.esta_coenctado(function($bool){
-						if($bool)  mostrar_home();
-						else mostrar_connect();
-					})
+				// 	_Facebook.esta_coenctado(function($bool){
+				// 		if($bool)  mostrar_home();
+				// 		else mostrar_connect();
+				// 	})
 
-				}catch(e){
+				// }catch(e){
 
 					_uid = '582872896';
 					//	_uid = '';
-					_name = 'Mateo Menestrina';
+					_name = 'Usuario Test';
 					mostrar_home();
 				
 
-				}
+				//}
 				
 				
 
